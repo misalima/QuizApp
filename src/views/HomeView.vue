@@ -12,25 +12,18 @@ watch(search, () => {
 
 </script>
 <template>
-    <div class="container">
+    <div>
         <header>
             <h1>Quizzes</h1>
             <input v-model.trim="search" type="text" placeholder="Search...">
         </header>
         <div class="options-container">
-            <RouterLink class="card-wrapper" v-for="quiz in quizzes" to="/card">
-                <Card  :key="quiz.id" :quiz="quiz" />
-            </RouterLink>
+            <Card v-for="quiz in quizzes" :key="quiz.id" :quiz="quiz" />
         </div>
     </div>
 </template>
 
 <style scoped>
-.container {
-    max-width: 1000px;
-    margin: 0 auto;
-    
-}
 
 header {
     margin-bottom: 10px;
