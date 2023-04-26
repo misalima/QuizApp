@@ -1,29 +1,10 @@
 # QuizzApp
 
-This template should help get you started developing with Vue 3 in Vite.
+This is a simple quiz app in which the user can select quizzes to answer. 
 
-## Recommended IDE Setup
+I built this app along with a tutorial from Laith Academy on Youtube, while learning the concepts of Vue.js framework.
 
-[VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur) + [TypeScript Vue Plugin (Volar)](https://marketplace.visualstudio.com/items?itemName=Vue.vscode-typescript-vue-plugin).
+## What I used...
 
-## Customize configuration
+## What I learned...
 
-See [Vite Configuration Reference](https://vitejs.dev/config/).
-
-## Project Setup
-
-```sh
-npm install
-```
-
-### Compile and Hot-Reload for Development
-
-```sh
-npm run dev
-```
-
-### Compile and Minify for Production
-
-```sh
-npm run build
-```
