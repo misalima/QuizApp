@@ -1,1 +1,6 @@
 @import './base.css';
+
+#app {
+    width: calc(100vw - 50px);
+    margin: auto;
+}
